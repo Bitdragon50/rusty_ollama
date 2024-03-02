@@ -1,0 +1,12 @@
+[package]
+name = "rusty_ollama"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ollama-rs = {features = ["stream"] }
+serde = "1.0.195"
+tokio = "1.35.1"
+tokio-stream = "0.1.14"
